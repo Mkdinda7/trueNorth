@@ -96,7 +96,7 @@ body {
 
 /* Navigation Link Styling */
 .navbar-nav .nav-link {
-    color: var(--nav-gray) !important;
+    color: var(--panel2) !important;
     font-size: 0.95rem;
     font-weight: 500;
     padding: 0.5rem 1rem !important;
