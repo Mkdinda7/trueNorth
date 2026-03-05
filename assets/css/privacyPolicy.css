@@ -1,0 +1,64 @@
+/* Privacy Specific Styles */
+.privacy-section {
+    background: #030508;
+    color: #a1a1aa;
+}
+
+.shield-icon {
+    font-size: 1.5rem;
+    color: #0082ff;
+}
+
+.important-notice-box {
+    background: rgba(255, 193, 7, 0.05);
+    border: 1px solid rgba(255, 193, 7, 0.2);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.compliance-highlight {
+    background: rgba(255, 255, 255, 0.03);
+    border-left: 4px solid #0082ff;
+    border-radius: 0 16px 16px 0;
+}
+
+.small-list {
+    padding-left: 20px;
+}
+
+.small-list li {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+/* Matching shared styles with ToS */
+.glass-nav-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    backdrop-filter: blur(10px);
+}
+
+#privacy-nav .nav-link {
+    color: #71717a;
+    font-size: 0.85rem;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+#privacy-nav .nav-link:hover,
+#privacy-nav .nav-link.active {
+    color: #fff;
+    background: rgba(0, 130, 255, 0.1);
+}
+
+.content-glass-card {
+    background: rgba(255, 255, 255, 0.01);
+    border-radius: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.text-blue {
+    color: #0082ff;
+}

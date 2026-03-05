@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrueNorth | AI Receptionists</title>
+
+    <!-- link bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- link custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/termsPage.css">
+</head>
+
+<body>
+
+    <!-- ===================HEADER SECTION =================== -->
+
+    <header class="navbar navbar-expand-lg sticky-top custom-header">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <div class="logo-box me-2"> <img src="./assets/img/logo2.png" alt="brand-logo"></div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#problem">Problem</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#solution">Solution</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#how-it-works">Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#industries">Industries</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="d-none d-lg-flex align-items-center gap-2">
+                <a href="#" class="btn btn-demo">
+                    <i class="bi bi-telephone-fill me-1"></i> Demo Call
+                </a>
+                <a href="#contact" class="btn btn-primary-gradient">Book Free Demo</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- =======================main section start =============== -->
+
+    <main>
+
+        <section class="terms-section py-5">
+            <div class="container py-lg-5">
+                <div class="row g-5">
+
+                    <div class="col-lg-4">
+                        <div class="sticky-top" style="top: 100px; z-index: 10;">
+                            <div class="glass-nav-card p-4">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="logo-dot me-2"></div>
+                                    <h5 class="text-white fw-bold mb-0">Legal Center</h5>
+                                </div>
+                                <nav id="terms-nav" class="nav flex-column gap-2">
+                                    <a class="nav-link active" href="#sms-terms">SMS Compliance</a>
+                                    <a class="nav-link" href="#general-terms">General Terms</a>
+                                    <a class="nav-link" href="#intellectual-property">Intellectual Property</a>
+                                    <a class="nav-link" href="#disclaimers">Disclaimers</a>
+                                    <a class="nav-link" href="#commerce">Online Commerce</a>
+                                    <a class="nav-link" href="#registration">Registration</a>
+                                    <a class="nav-link" href="#contact-info">Contact Information</a>
+                                </nav>
+                                <div class="mt-4 pt-4 border-top border-secondary opacity-50">
+                                    <p class="x-small text-secondary mb-0">Last Updated: Jan 1st, 2026</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="content-glass-card p-4 p-md-5">
+
+                            <header class="mb-5">
+                                <h1 class="display-5 fw-bold text-white mb-3">TrueNorth Ai</h1>
+                                <p class="text-blue fw-semibold">Effective Date: Jan 1st, 2026</p>
+                            </header>
+
+                            <div id="sms-terms" class="legal-block mb-5">
+                                <div class="compliance-badge mb-3">SMS Messaging Terms & Compliance</div>
+                                <p class="text-light">1. <strong>Program Description:</strong> This messaging program
+                                    sends appointment confirmation and reminder messages to customers who have booked an
+                                    appointment with {{business.name}} through our website at {{business.website}}, or
+                                    via our scheduling forms, and have explicitly opted in to receive SMS notifications.
+                                    Opt-in is collected via web forms with a dedicated checkbox for SMS consent.
+                                    Messages include scheduling confirmations, appointment reminders, rescheduling
+                                    updates, and customer support communications.</p>
+                                <p class="text-light">2. <strong>Cancellation Instructions:</strong> You can cancel the
+                                    SMS service at any time. Simply text <span class="text-white fw-bold">"STOP"</span>
+                                    to the same number that sent you messages. Upon sending "STOP," we will confirm your
+                                    unsubscribe status via SMS. Following this confirmation, you will no longer receive
+                                    SMS messages from us. To rejoin, sign up as you did initially, and we will resume
+                                    sending SMS messages to you.</p>
+                                <p class="text-light">3. <strong>Support Information:</strong> If you experience issues
+                                    with the messaging program, reply with the keyword <span
+                                        class="text-white fw-bold">"HELP"</span> for more assistance, or reach out
+                                    directly to {{business.email}} or call {{business.phone}} during business hours.</p>
+                                <p class="text-light">4. <strong>Carrier Liability:</strong> Carriers are not liable for
+                                    delayed or undelivered messages.</p>
+                                <p class="text-light">5. <strong>Message & Data Rates:</strong> Message and data rates
+                                    may apply for messages sent to you from us and to us from you. Message frequency
+                                    varies based on your service usage and appointment schedule. For questions about
+                                    your text plan or data plan, contact your wireless provider.</p>
+                                <p class="text-light">6. <strong>Supported Carriers:</strong> Our SMS program works with
+                                    all major U.S. wireless carriers, including AT&T, T-Mobile, Verizon, Sprint, and
+                                    most regional carriers.</p>
+                                <p class="text-light">7. <strong>Age Restriction:</strong> You must be 18 years or older
+                                    to participate in our SMS program.</p>
+                                <p class="text-light">8. <strong>Privacy Policy:</strong> For privacy-related inquiries,
+                                    please refer to our Privacy Policy at {{business.website}}/privacy-policy</p>
+                                <div class="compliance-footer-note mt-3">
+                                    We comply with all applicable laws and regulations, including the Telephone Consumer
+                                    Protection Act (TCPA) and CTIA guidelines, regarding the use of SMS communications.
+                                </div>
+                            </div>
+
+                            <hr class="my-5 border-secondary opacity-25">
+
+                            <div id="general-terms" class="legal-block mb-5">
+                                <h3 class="text-white fw-bold mb-4">General Terms</h3>
+                                <p class="text-secondary">This website (the "Site") is owned and operated by
+                                    {{business.name}} ("COMPANY," "we" or "us"). By using the Site, you agree to be
+                                    bound by these Terms of Service and to use the Site in accordance with these Terms
+                                    of Service, our Privacy Policy, and any additional terms and conditions that may
+                                    apply to specific sections of the Site or to products and services available through
+                                    the Site or from {{business.name}}.</p>
+                                <p class="text-secondary">Accessing the Site, in any manner, whether automated or
+                                    otherwise, constitutes use of the Site and your agreement to be bound by these Terms
+                                    of Service.</p>
+                                <p class="text-secondary">We reserve the right to change these Terms of Service or to
+                                    impose new conditions on the use of the Site from time to time, in which case we
+                                    will post the revised Terms of Service on this website. By continuing to use the
+                                    Site after we post any such changes, you accept the Terms of Service, as modified.
+                                </p>
+                            </div>
+
+                            <div id="intellectual-property" class="legal-block mb-5">
+                                <h3 class="text-white fw-bold mb-4">Intellectual Property Rights</h3>
+                                <h5 class="text-blue">Our Limited License to You</h5>
+                                <p class="text-secondary">This Site and all the materials available on the Site are the
+                                    property of {{business.name}} and/or our affiliates or licensors and are protected
+                                    by copyright, trademark, and other intellectual property laws. The Site is provided
+                                    solely for your personal non-commercial use...</p>
+
+                                <h5 class="text-blue mt-4">Your License to Us</h5>
+                                <p class="text-secondary">By posting or submitting any material (including comments,
+                                    blog entries, social media posts, photos, and videos) to us via the Site... you
+                                    grant us a royalty-free, perpetual, irrevocable, non-exclusive, worldwide license to
+                                    use, modify, transmit, sell, exploit, create derivative works from, distribute, and
+                                    publicly perform or display such material.</p>
+                            </div>
+
+                            <div id="contact-info" class="legal-block">
+                                <h3 class="text-white fw-bold mb-4">Contact & Support</h3>
+                                <div class="contact-glass-footer p-4">
+                                    <p class="text-white mb-2"><strong>{{business.name}}</strong></p>
+                                    <p class="text-secondary mb-1">Phone: {{business.phone}}</p>
+                                    <p class="text-secondary mb-1">Email: {{business.email}}</p>
+                                    <p class="text-secondary mb-0">Website: {{business.website}}</p>
+                                </div>
+                                <p class="text-center mt-4 x-small text-secondary">By using our website and services,
+                                    you consent to these Terms of Service.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ====================footer section =============== -->
+    <footer class="footer-section py-5">
+        <div class="container">
+            <div class="row g-4 justify-content-between">
+
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="footer-logo-box me-2"><img src="./assets/img/logo2.png" alt="footer-logo"> </div>
+                    </div>
+                    <p class="text-secondary small pe-lg-5">
+                        The 24/7 AI Receptionist that turns your missed calls into booked revenue.
+                        Scalable, reliable, and built for modern business.
+                    </p>
+                    <div class="footer-socials d-flex gap-3 mt-4">
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h6 class="text-dark fw-bold mb-4">Platform</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#problem">The Problem</a></li>
+                        <li><a href="#solution">How it Works</a></li>
+                        <li><a href="#industries">Industries</a></li>
+                        <li><a href="#contact">Pricing</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h6 class="text-dark fw-bold mb-4">Legal</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="./privacyPolicy.html">Privacy Policy</a></li>
+                        <li><a href="./termsCondition.html">Terms of Service</a></li>
+                        <li><a href="#">SMS Policy (A2P)</a></li>
+                        <li><a href="#">Cookie Settings</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="footer-cta-box">
+                        <h6 class="text-dark fw-bold">Have questions?</h6>
+                        <p class="small text-secondary">Our team is here to help you automate your front desk.</p>
+                        <a href="mailto:hello@truenorthai.com"
+                            class="text-blue text-decoration-none fw-bold small">hello@truenorthai.com</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="my-5 border-secondary opacity-10">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="small text-secondary mb-0">© 2026 TrueNorth AI Receptionists. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <span class="small text-secondary">Crafted with ❤️ for growing businesses.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
